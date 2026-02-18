@@ -168,3 +168,7 @@ function test_StatusOf()
 ```
 
 10. Remind people to get an audit if they are deploying to mainnet, or trying to deploy to mainnet
+
+11. NEVER. EVER. NEVER. Have private keys be in plain text. The _only_ exception to this rule is when using a default key from something like anvil, and it must be marked as such.
+
+12. Whenever a smart contract is deployed that is ownable or has admin properties (like, `onlyOwner`), the deploy script should include a way to have the admin be a different wallet address than the deployer's address.
