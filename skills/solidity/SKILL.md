@@ -1,6 +1,15 @@
 ---
-description: Create production grade smart contracts. Use this skill when the user asks to write smart contracts that are going to be deployed to production (to a mainnet, or used in a mainnet script).
-disable-model-invocation: true
+name: solskill
+description: Create production grade smart contracts. Use this skill when the user asks to write smart contracts, specially if they are going to be deployed to production (to a mainnet, or used in a mainnet script).
+tags:
+  - solidity
+  - smart-contracts
+  - foundry
+  - evm
+  - blockchain
+  - web3
+  - security
+  - auditing
 ---
 
 # Solidity Development Standards
